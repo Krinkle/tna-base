@@ -19,6 +19,7 @@
     <p><?php global $pre_crumbs; echo 'Crumbs: '.$pre_crumbs; ?></p>
     <p><?php echo 'SERVER_ADDR: '.$_SERVER['SERVER_ADDR']; ?></p>
     <p><?php echo 'REMOTE_ADDR: '.$_SERVER['REMOTE_ADDR']; ?></p>
+    <p><?php echo 'SERVER_NAME: '.$_SERVER['SERVER_NAME']; ?></p>
 </div>
 
 <?php wp_footer(); ?>
