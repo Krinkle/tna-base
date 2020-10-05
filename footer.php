@@ -14,6 +14,12 @@
         </div>
     </div>
 </footer>
+<div class="hidden">
+    <p><?php global $pre_path; echo 'Path: '.$pre_path; ?></p>
+    <p><?php global $pre_crumbs; echo 'Crumbs: '.$pre_crumbs; ?></p>
+    <p><?php echo 'SERVER_ADDR: '.$_SERVER['SERVER_ADDR']; ?></p>
+    <p><?php echo 'REMOTE_ADDR: '.$_SERVER['REMOTE_ADDR']; ?></p>
+</div>
 
 <?php wp_footer(); ?>
 
