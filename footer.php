@@ -20,6 +20,12 @@
     <p><?php echo 'SERVER_ADDR: '.$_SERVER['SERVER_ADDR']; ?></p>
     <p><?php echo 'REMOTE_ADDR: '.$_SERVER['REMOTE_ADDR']; ?></p>
     <p><?php echo 'SERVER_NAME: '.$_SERVER['SERVER_NAME']; ?></p>
+    <p><?php echo 'HTTP_HOST: '.$_SERVER['HTTP_HOST']; ?></p>
+    <p><?php echo 'REQUEST_URI: '.$_SERVER['REQUEST_URI']; ?></p>
+    <p><?php echo 'HTTP_X_REQUEST_URI: '.$_SERVER['HTTP_X_REQUEST_URI']; ?></p>
+    <p><?php echo 'HTTP_X_FORWARDED_FOR: '.$_SERVER['HTTP_X_FORWARDED_FOR']; ?></p>
+    <p><?php echo 'HTTP_X_FORWARDED_HOST: '.$_SERVER['HTTP_X_FORWARDED_HOST']; ?></p>
+    <p><?php echo 'HTTP_X_FORWARDED_SERVER: '.$_SERVER['HTTP_X_FORWARDED_SERVER']; ?></p>
 </div>
 
 <?php wp_footer(); ?>
