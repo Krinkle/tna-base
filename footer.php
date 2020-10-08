@@ -26,6 +26,8 @@
     <p><?php echo 'HTTP_X_FORWARDED_FOR: '.$_SERVER['HTTP_X_FORWARDED_FOR']; ?></p>
     <p><?php echo 'HTTP_X_FORWARDED_HOST: '.$_SERVER['HTTP_X_FORWARDED_HOST']; ?></p>
     <p><?php echo 'HTTP_X_FORWARDED_SERVER: '.$_SERVER['HTTP_X_FORWARDED_SERVER']; ?></p>
+    <p><?php echo 'HTTP_X_NGINX_PROXY: '.$_SERVER['HTTP_X_NGINX_PROXY']; ?></p>
+    <p><?php echo 'getallheaders: '.getallheaders(); ?></p>
 </div>
 
 <?php wp_footer(); ?>
